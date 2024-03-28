@@ -1,0 +1,2 @@
+canHit = true
+

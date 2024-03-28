@@ -1,0 +1,1 @@
+global.stagetitle = "Curien Mansion"

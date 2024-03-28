@@ -1,0 +1,600 @@
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/scripts/draw_circular_bar/draw_circular_bar.gml
+Converted description /// @description  draw_circular_bar(x ,y ,value, max, colour, radius, transparency, width
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/scripts/draw_text_outline_ext/draw_text_outline_ext.gml
+Converted description /// @description  draw_text_outline_ext(x, y, text, *thickness, *outline_color, *inner_color, xscale, yscale);/// @param x
+/// @param  y
+/// @param  text
+/// @param  *thickness
+/// @param  *outline_color
+/// @param  *inner_color
+/// @param  xscale
+/// @param  yscale
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/scripts/draw_effect/draw_effect.gml
+Converted description /// @description draw_effect(sprite, angle, image_xscale, image_yscale, blend
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/scripts/scrPlaySound/scrPlaySound.gml
+Converted description /// @description  scrPlaySound(Sound, volume, pitch, loop
+
+GameMaker Studio 1 font texture has been backed up at /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/fonts/font_stagetitle/font_stagetitle.gms1.png
+GameMaker Studio 1 font texture has been backed up at /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/fonts/font_ingame/font_ingame.gms1.png
+GameMaker Studio 1 font texture has been backed up at /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/fonts/font2/font2.gms1.png
+GameMaker Studio 1 font texture has been backed up at /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/fonts/font_sonicfont/font_sonicfont.gms1.png
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_Sonic/Step_1.gml
+String not found: ConversionLog_ConvertedString 6 'S' "S"
+String not found: ConversionLog_ConvertedString 7 'S' "S"
+String not found: ConversionLog_ConvertedString 8 'D' "D"
+String not found: ConversionLog_ConvertedString 9 'D' "D"
+String not found: ConversionLog_ConvertedString 10 'A' "A"
+String not found: ConversionLog_ConvertedString 11 'A' "A"
+String not found: ConversionLog_ConvertedString 13 'W' "W"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_Sonic/Step_0.gml
+String not found: ConversionLog_ConvertedString 14 'R' "R"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_player_camera/Step_0.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 33: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 70: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 74: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 43: view_xview[0] = obj_Sonic.x - view_wview[0]/2 -> __view_set( e__VW.XView, 0, obj_Sonic.x - view_wview[0]/2 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 71: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 75: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] = obj_Sonic.y - view_hview[0]/2 + shake*choose(random(shakeoffset),-random(shakeoffset)) -> __view_set( e__VW.YView, 0, obj_Sonic.y - view_hview[0]/2 + shake*choose(random(shakeoffset),-random(shakeoffset)) )
+Converted builtin - line 35: view_yview[0] = obj_Sonic.y - view_hview[0]/2 -> __view_set( e__VW.YView, 0, obj_Sonic.y - view_hview[0]/2 )
+Converted builtin - line 44: view_yview[0] = obj_Sonic.y - view_hview[0]/2 -> __view_set( e__VW.YView, 0, obj_Sonic.y - view_hview[0]/2 )
+Converted builtin - line 10: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 33: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 70: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 71: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 10: view_xview[0] += ((x-(__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.2 + shake*choose(random(shakeoffset),-random(shakeoffset)) -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (((x-(__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.2 + shake*choose(random(shakeoffset),-random(shakeoffset))) )
+Converted builtin - line 33: view_xview[0] += ((x-(__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.2 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (((x-(__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.2) )
+Converted builtin - line 70: view_xview[0] += ((x-(__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.5 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (((x-(__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.5) )
+Converted builtin - line 74: view_xview[0] = floor(__view_get( e__VW.XView, 0 )) -> __view_set( e__VW.XView, 0, floor(__view_get( e__VW.XView, 0 )) )
+Converted builtin - line 13: view_yview[0] += ((y-(__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.9 + shake*choose(random(shakeoffset),-random(shakeoffset)) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (((y-(__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.9 + shake*choose(random(shakeoffset),-random(shakeoffset))) )
+Converted builtin - line 71: view_yview[0] += ((y-(__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.5 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (((y-(__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.5) )
+Converted builtin - line 75: view_yview[0] = floor(__view_get( e__VW.YView, 0 )) -> __view_set( e__VW.YView, 0, floor(__view_get( e__VW.YView, 0 )) )
+Converted builtin - line 43: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 44: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_background_controller/Step_0.gml
+Converted builtin - line 25: background_index[0] = bg_SunsetHill[bg_image] -> __background_set( e__BG.Index, 0, bg_SunsetHill[bg_image] )
+Converted builtin - line 12: background_x[0] = view_xview[0] * 1 -> __background_set( e__BG.X, 0, view_xview[0] * 1 )
+Converted builtin - line 16: background_x[1] = view_xview[0] * 0.9 -> __background_set( e__BG.X, 1, view_xview[0] * 0.9 )
+Converted builtin - line 20: background_x[2] = view_xview[0] * 0.8 -> __background_set( e__BG.X, 2, view_xview[0] * 0.8 )
+Converted builtin - line 27: background_x[0] = view_xview[0] -> __background_set( e__BG.X, 0, view_xview[0] )
+Converted builtin - line 53: background_x[0] = (view_xview[0] + back_val1) * 0.95 -> __background_set( e__BG.X, 0, (view_xview[0] + back_val1) * 0.95 )
+Converted builtin - line 56: background_x[1] = view_xview[0] * 0.95 -> __background_set( e__BG.X, 1, view_xview[0] * 0.95 )
+Converted builtin - line 59: background_x[2] = view_xview[0] -> __background_set( e__BG.X, 2, view_xview[0] )
+Converted builtin - line 62: background_x[3] = view_xview[0] * 0.9 -> __background_set( e__BG.X, 3, view_xview[0] * 0.9 )
+Converted builtin - line 15: background_y[0] -> __background_get( e__BG.Y, 0 )
+Converted builtin - line 13: background_y[0] = view_yview[0] * 0.95 -> __background_set( e__BG.Y, 0, view_yview[0] * 0.95 )
+Converted builtin - line 19: background_y[2] = lerp(0,room_height-background_height[2],_ypos) -> __background_set( e__BG.Y, 2, lerp(0,room_height-background_height[2],_ypos) )
+Converted builtin - line 28: background_y[0] = view_yview[0] -> __background_set( e__BG.Y, 0, view_yview[0] )
+Converted builtin - line 54: background_y[0] = view_yview[0] - 50 -> __background_set( e__BG.Y, 0, view_yview[0] - 50 )
+Converted builtin - line 57: background_y[1] = view_yview[0] - 50 -> __background_set( e__BG.Y, 1, view_yview[0] - 50 )
+Converted builtin - line 60: background_y[2] = view_yview[0] -> __background_set( e__BG.Y, 2, view_yview[0] )
+Converted builtin - line 63: background_y[3] = view_yview[0] - 50 -> __background_set( e__BG.Y, 3, view_yview[0] - 50 )
+Converted builtin - line 65: background_width[0] -> __background_get( e__BG.Width, 0 )
+Converted builtin - line 15: background_height[0] -> __background_get( e__BG.Height, 0 )
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: background_y[1] = __background_get( e__BG.Y, 0 ) + __background_get( e__BG.Height, 0 ) -> __background_set( e__BG.Y, 1, __background_get( e__BG.Y, 0 ) + __background_get( e__BG.Height, 0 ) )
+Converted builtin - line 19: background_height[2] -> __background_get( e__BG.Height, 2 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 53: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 56: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 59: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 28: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 54: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 57: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 60: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 63: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_HUD_ingame/Create_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_HUD_ingame/Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_title/Step_0.gml
+String not found: ConversionLog_ConvertedString 36 'S' "S"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_select_character/Step_0.gml
+String not found: ConversionLog_ConvertedString 22 'S' "S"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlescreen_controller/Step_0.gml
+String not found: ConversionLog_ConvertedString 17 'S' "S"
+String not found: ConversionLog_ConvertedString 54 'S' "S"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte_button/Step_0.gml
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+String not found: ConversionLog_ConvertedString 6 'A' "A"
+String not found: ConversionLog_ConvertedString 7 'S' "S"
+String not found: ConversionLog_ConvertedString 8 'D' "D"
+String not found: ConversionLog_ConvertedString 9 'W' "W"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte_button_jumppanel/Step_0.gml
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+String not found: ConversionLog_ConvertedString 6 'A' "A"
+String not found: ConversionLog_ConvertedString 7 'S' "S"
+String not found: ConversionLog_ConvertedString 8 'D' "D"
+String not found: ConversionLog_ConvertedString 9 'W' "W"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte2_button/Step_0.gml
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+String not found: ConversionLog_ConvertedString 6 'A' "A"
+String not found: ConversionLog_ConvertedString 7 'S' "S"
+String not found: ConversionLog_ConvertedString 8 'D' "D"
+String not found: ConversionLog_ConvertedString 9 'W' "W"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte_fail/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte_success/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte3_buttons/Create_0.gml
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 28: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 31: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 28: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 32: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte3_buttons/Step_0.gml
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 16: view_hview[0] -> __view_get( e__VW.HView, 0 )
+String not found: ConversionLog_ConvertedString 1 'A' "A"
+String not found: ConversionLog_ConvertedString 2 'S' "S"
+String not found: ConversionLog_ConvertedString 3 'D' "D"
+String not found: ConversionLog_ConvertedString 4 'W' "W"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte3_buttons_expert/Create_0.gml
+Converted builtin - line 37: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 41: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 45: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 49: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 53: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 38: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 46: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 50: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 54: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 37: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 41: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 45: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 49: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 53: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 38: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 42: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 46: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 50: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 54: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte3_buttons_expert/Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 14: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+String not found: ConversionLog_ConvertedString 1 'A' "A"
+String not found: ConversionLog_ConvertedString 2 'S' "S"
+String not found: ConversionLog_ConvertedString 3 'D' "D"
+String not found: ConversionLog_ConvertedString 4 'W' "W"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte3_buttons_hard/Create_0.gml
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 28: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 31: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 28: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 32: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_qte3_buttons_hard/Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 14: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+String not found: ConversionLog_ConvertedString 1 'A' "A"
+String not found: ConversionLog_ConvertedString 2 'S' "S"
+String not found: ConversionLog_ConvertedString 3 'D' "D"
+String not found: ConversionLog_ConvertedString 4 'W' "W"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_whiteblank_fadeout/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_blackblank_fadeout/Destroy_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_blackblank_fadeout/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_blackblank_fadein/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_SonicReady/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_SonicSet/Create_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_SonicSet/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_SonicGo/Step_0.gml
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_card1/Create_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_card1/Alarm_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_card1/Step_0.gml
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_SonicGo2/Create_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_SonicGo2/Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_stagetitle/Step_0.gml
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_bestrank/Create_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_new/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_new/Draw_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_character/Create_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_titlecard_character/Step_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_checkpoint_info/Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_background_changer/Step_0.gml
+Converted builtin - line 5: background_index[i] = background2[i] -> __background_set( e__BG.Index, i, background2[i] )
+Converted builtin - line 12: background_index[i] = background1[i] -> __background_set( e__BG.Index, i, background1[i] )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_resultscreen_whitefadein/Destroy_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_resultscreen_whitefadein/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_resultscreen_blackfadein/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_resultscreen/Create_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_resultscreen/Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+String not found: ConversionLog_ConvertedString 135 'S' "S"
+
+Converting GML script: /Users/administrator/Documents/GitHub/ABH-Rush-Engine/ABH Rush Engine/mvc/objects/obj_boostfx/Step_0.gml
+String not found: ConversionLog_ConvertedString 31 'A' "A"
+
+Missing audiogroup for sound: 'bgm_titlescreen' - setting to default audio group
+Missing audiogroup for sound: 'bgm_planetwisp' - setting to default audio group
+Missing audiogroup for sound: 'bgm_curienmansion' - setting to default audio group
+Missing audiogroup for sound: 'bgm_stageclear_Sonic' - setting to default audio group
+Missing audiogroup for sound: 'bgm_stageclear_Shadow' - setting to default audio group
+Missing audiogroup for sound: 'bgm_result' - setting to default audio group
+Missing audiogroup for sound: 'bgm_sega' - setting to default audio group
+Missing audiogroup for sound: 'bgm_hotcrater' - setting to default audio group
+Missing audiogroup for sound: 'snd_spin' - setting to default audio group
+Missing audiogroup for sound: 'snd_spindash' - setting to default audio group
+Missing audiogroup for sound: 'snd_spindash_launch' - setting to default audio group
+Missing audiogroup for sound: 'snd_spectra' - setting to default audio group
+Missing audiogroup for sound: 'snd_stomp_end' - setting to default audio group
+Missing audiogroup for sound: 'snd_stomp_start' - setting to default audio group
+Missing audiogroup for sound: 'snd_boost_loop' - setting to default audio group
+Missing audiogroup for sound: 'snd_boost_power' - setting to default audio group
+Missing audiogroup for sound: 'snd_boost_start' - setting to default audio group
+Missing audiogroup for sound: 'snd_button_trigger' - setting to default audio group
+Missing audiogroup for sound: 'snd_boost_continue' - setting to default audio group
+Missing audiogroup for sound: 'snd_alright' - setting to default audio group
+Missing audiogroup for sound: 'snd_homing' - setting to default audio group
+Missing audiogroup for sound: 'snd_jump' - setting to default audio group
+Missing audiogroup for sound: 'snd_homing_target' - setting to default audio group
+Missing audiogroup for sound: 'snd_roll' - setting to default audio group
+Missing audiogroup for sound: 'snd_grab' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_water1' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_water2' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_grass1' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_grass2' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_metal1' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_metal2' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_dirt1' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_dirt2' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_wood1' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_wood2' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_glass1' - setting to default audio group
+Missing audiogroup for sound: 'snd_footstep_glass2' - setting to default audio group
+Missing audiogroup for sound: 'snd_skid' - setting to default audio group
+Missing audiogroup for sound: 'snd_skidhigh' - setting to default audio group
+Missing audiogroup for sound: 'snd_skid_metal' - setting to default audio group
+Missing audiogroup for sound: 'snd_skid_dirt' - setting to default audio group
+Missing audiogroup for sound: 'snd_skid_wood' - setting to default audio group
+Missing audiogroup for sound: 'snd_skid_grass' - setting to default audio group
+Missing audiogroup for sound: 'snd_skid_glass' - setting to default audio group
+Missing audiogroup for sound: 'snd_land' - setting to default audio group
+Missing audiogroup for sound: 'snd_land_metal' - setting to default audio group
+Missing audiogroup for sound: 'snd_land_dirt' - setting to default audio group
+Missing audiogroup for sound: 'snd_land_wood' - setting to default audio group
+Missing audiogroup for sound: 'snd_land_grass' - setting to default audio group
+Missing audiogroup for sound: 'snd_land_glass' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicAttack1' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicAttack2' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicAttack3' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicBoost1' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicBoost2' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicDie' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicGo' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicQTE' - setting to default audio group
+Missing audiogroup for sound: 'snd_SonicHurt' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Boost1' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Boost2' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Boost3' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Dash' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Die' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Fall' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Homing1' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Homing2' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Homing3' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Shoot' - setting to default audio group
+Missing audiogroup for sound: 'snd_ShadowQTE' - setting to default audio group
+Missing audiogroup for sound: 'snd_jetboots_R' - setting to default audio group
+Missing audiogroup for sound: 'snd_jetboots_L' - setting to default audio group
+Missing audiogroup for sound: 'snd_Shadow_Warp' - setting to default audio group
+Missing audiogroup for sound: 'snd_Tails_fly' - setting to default audio group
+Missing audiogroup for sound: 'snd_Tails_tailattack' - setting to default audio group
+Missing audiogroup for sound: 'snd_cashregister' - setting to default audio group
+Missing audiogroup for sound: 'snd_cashregister2' - setting to default audio group
+Missing audiogroup for sound: 'snd_checkpoint' - setting to default audio group
+Missing audiogroup for sound: 'snd_spring' - setting to default audio group
+Missing audiogroup for sound: 'snd_unpause' - setting to default audio group
+Missing audiogroup for sound: 'snd_clearscreen' - setting to default audio group
+Missing audiogroup for sound: 'snd_zipline' - setting to default audio group
+Missing audiogroup for sound: 'snd_rainbowring' - setting to default audio group
+Missing audiogroup for sound: 'snd_dashpad' - setting to default audio group
+Missing audiogroup for sound: 'snd_dashring' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_explosion' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_hit1' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_hit2' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_hit3' - setting to default audio group
+Missing audiogroup for sound: 'snd_grinding' - setting to default audio group
+Missing audiogroup for sound: 'snd_hit' - setting to default audio group
+Missing audiogroup for sound: 'snd_jumpramp' - setting to default audio group
+Missing audiogroup for sound: 'snd_load1' - setting to default audio group
+Missing audiogroup for sound: 'snd_load2' - setting to default audio group
+Missing audiogroup for sound: 'snd_load3' - setting to default audio group
+Missing audiogroup for sound: 'snd_pause' - setting to default audio group
+Missing audiogroup for sound: 'snd_pointsadd' - setting to default audio group
+Missing audiogroup for sound: 'snd_qte_button_ok' - setting to default audio group
+Missing audiogroup for sound: 'snd_qte_fail' - setting to default audio group
+Missing audiogroup for sound: 'snd_qte_success' - setting to default audio group
+Missing audiogroup for sound: 'snd_railcontact' - setting to default audio group
+Missing audiogroup for sound: 'snd_rank' - setting to default audio group
+Missing audiogroup for sound: 'snd_ring' - setting to default audio group
+Missing audiogroup for sound: 'snd_watersplash' - setting to default audio group
+Missing audiogroup for sound: 'snd_watersplashout' - setting to default audio group
+Missing audiogroup for sound: 'snd_4waycanon_start' - setting to default audio group
+Missing audiogroup for sound: 'snd_4waycanon_running' - setting to default audio group
+Missing audiogroup for sound: 'snd_4waycanon_timeout' - setting to default audio group
+Missing audiogroup for sound: 'snd_4waycanon_set' - setting to default audio group
+Missing audiogroup for sound: 'snd_4waycanon_blast' - setting to default audio group
+Missing audiogroup for sound: 'snd_jumppanel_attached' - setting to default audio group
+Missing audiogroup for sound: 'snd_jumppanel_ok' - setting to default audio group
+Missing audiogroup for sound: 'snd_wispcapsule' - setting to default audio group
+Missing audiogroup for sound: 'snd_spring_egg' - setting to default audio group
+Missing audiogroup for sound: 'snd_rings10' - setting to default audio group
+Missing audiogroup for sound: 'snd_goal' - setting to default audio group
+Missing audiogroup for sound: 'snd_goalring' - setting to default audio group
+Missing audiogroup for sound: 'snd_doorsmash' - setting to default audio group
+Missing audiogroup for sound: 'snd_axespin' - setting to default audio group
+Missing audiogroup for sound: 'snd_zombiedamage' - setting to default audio group
+Missing audiogroup for sound: 'snd_batdamage' - setting to default audio group
+Missing audiogroup for sound: 'snd_whoosh' - setting to default audio group
+Missing audiogroup for sound: 'snd_monkeydamage' - setting to default audio group
+Missing audiogroup for sound: 'snd_monkeyjump' - setting to default audio group
+Missing audiogroup for sound: 'snd_computer_unlocked' - setting to default audio group
+Missing audiogroup for sound: 'snd_glass_smash' - setting to default audio group
+Missing audiogroup for sound: 'snd_springpole' - setting to default audio group
+Missing audiogroup for sound: 'snd_dooropen' - setting to default audio group
+Missing audiogroup for sound: 'snd_switch' - setting to default audio group
+Missing audiogroup for sound: 'snd_menunavigate' - setting to default audio group
+Missing audiogroup for sound: 'snd_menuconfirm_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_menuconfirm' - setting to default audio group
+Missing audiogroup for sound: 'snd_classicspring' - setting to default audio group
+Imported layer depths for room(s) 'rm_curienmansion' were not adequately spaced. Unless updated this will have undefined results in game.
+Game speed set to 60
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'tile/tile_layer_show.gml'
+Added compatibility script 'tile/tile_layer_hide.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/room_set_view.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'

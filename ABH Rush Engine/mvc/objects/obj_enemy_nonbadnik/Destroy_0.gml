@@ -1,0 +1,2 @@
+global.enemies += 100
+

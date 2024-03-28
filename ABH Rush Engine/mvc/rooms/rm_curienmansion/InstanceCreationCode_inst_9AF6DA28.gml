@@ -1,0 +1,1 @@
+switchable = obj_switchdoor
