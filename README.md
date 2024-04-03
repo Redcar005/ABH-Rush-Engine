@@ -1,5 +1,4 @@
 ## ABH-Rush Engine for GMS2 [GITHUB VERSION]
-![ABH-RUSH Engine](https://cdn.discordapp.com/attachments/614413650656100352/695919971095805962/ABH_Rush_Logo.png)
 ABH-Rush Engine for GMS2 is a Modern Sonic framework developed within GameMaker, now ported to the latest version of the software!
 # FRAMEWORK FEATURES:
 * Modern Sonic gameplay based upon the Sonic Rush series.
