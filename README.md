@@ -9,7 +9,7 @@ ABH-Rush Engine for GMS2 is a Modern Sonic framework developed within GameMaker,
 and so much more...
 # HOW TO SET UP?
 To use the ABH-Rush Engine in your projects, you will need to have done the following
-* Get a copy of [GameMaker] (https://gamemaker.io/en/download) on your *computer*.
+* Get a copy of GameMaker (https://gamemaker.io/en/download) on your *computer*.
 * Download the latest commit of the ABH-Rush Engine project folder from here.
 * Unzip it (or in the case of Git users, get to its directory) and put it in your own folder.
 * Open up GameMaker and select the "Import" tab, then go to where you put in the ABH-Rush project file and open it.
